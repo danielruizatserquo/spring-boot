@@ -1,8 +1,7 @@
 package es.serquo.springboot.demo.controllers;
 
 import es.serquo.springboot.demo.models.Product;
-import es.serquo.springboot.demo.services.ProductService;
-import io.swagger.annotations.Api;
+import es.serquo.springboot.demo.services.ProductService;;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +11,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/products")
-@Api(value = "/products")
 public class ProductController {
 
         @Autowired
